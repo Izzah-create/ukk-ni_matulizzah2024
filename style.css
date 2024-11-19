@@ -1,0 +1,161 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
+header {
+  background-color: #ffdbb5;
+  padding: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.btn-order {
+  background-color: #603f26;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* Hero Section */
+#hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.hero-content h1 {
+  font-size: 1.5rem;
+}
+.hero-content {
+  margin-top: 10px;
+  align-items: center;
+  padding: 60px;
+}
+.hero-image {
+  padding: 30px;
+}
+.btn-order {
+  display: inline-block;
+  background-color: #603f26;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* Product Section */
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.productb {
+  background-color: bisque;
+}
+.product h2 {
+  padding: 200px 0 0 200px;
+  padding-left: 20px;
+}
+.product {
+  text-align: center;
+  max-width: 300px;
+  margin: 20px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.product img {
+  width: auto;
+  height: 200px;
+  border-radius: 10px;
+}
+/* Testimonial Section */
+#testimonials {
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.testimonial {
+  margin: 20px;
+  max-width: 300px;
+}
+.testimonials img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Contact Us Section */
+#Contact {
+  padding: 40px;
+  text-align: center;
+}
+form input,
+form textarea {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: skyblue;
+  padding: 10px 20px;
+  height: auto;
+  border: none;
+  cursor: pointer;
+}
+/* Footer Section */
+footer {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.footer p {
+  margin: 10px 0;
+  text-align: center;
+}
+.social-icons {
+  margin-bottom: 10px;
+}
+.social-icons a img {
+  width: 30px;
+  margin: 0 10px;
+}
